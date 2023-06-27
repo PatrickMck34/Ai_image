@@ -1,0 +1,7 @@
+OPENAI_API_KEY="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"
+
+MONGODB_URL="mongodb+srv://corkscrewhollow:pass123@cluster0.5kyx0x9.mongodb.net/"
+
+CLOUDINARY_CLOUD_NAME='dtsreht8z'
+CLOUDINARY_API_KEY='825977719882699'
+CLOUDINARY_API_SECRET= 'vT51x9gwTldIKnhBUnhaQHU1IeY'
