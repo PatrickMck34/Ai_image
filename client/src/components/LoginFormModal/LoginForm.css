@@ -1,0 +1,21 @@
+.label {
+  display: flex;
+  justify-items: center;
+  cursor: pointer;
+
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+.input {
+  cursor: pointer;
+}
+
+/* input:invalid {
+    border: .5px dashed red;
+  } */
+
+/* input:valid {
+    border: 2px solid black;
+  } */

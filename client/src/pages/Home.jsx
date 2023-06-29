@@ -70,7 +70,7 @@ const Home = () => {
                 <FormField 
                 labelName="Search posts"
                 type="text"
-                name="text"
+                name="search"
                 placeholder="Search posts"
                 value={searchText}
                 handleChange={handleSearchChange}

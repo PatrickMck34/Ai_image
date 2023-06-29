@@ -3,7 +3,15 @@ import {BrowserRouter, Link, Route, Routes} from "react-router-dom"
 import {logo } from "./assets"
 import {Home, CreatePost, Landing} from "./pages"
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+const AppWrapper = () => {
+  const store = createStore(rootReducer);
 
+  return (
+    <Provider store={store}> // Set context
+      <App /> // Now App has access to context
+    </Provider>
+  )
+}
 
 const App = () => {
   return (
@@ -28,7 +36,7 @@ const App = () => {
 <main className="sm:p-8 px-4 py-8 w-full  min-h-[calc (100vh - 73px )]">
 <Routes>
   <Route path="/" element={<Home />} />
-  <Route path="/image" element={<Landing/>}/>
+  <Route path="/sign" element={<Landing/>}/>
   <Route path="/create-post" element={<CreatePost />} />
 
 

@@ -1,13 +1,12 @@
-import React from "react"
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import {useDispatch, useSelector} from "react-redux"
+
+import React , {useState, useEffect}from 'react';
+import {useNavigate } from 'react-router-dom'
+
 const Landing = () => {
-    return (
-     
 
-      
- 
-  <div className="flex">
-
+return (
 
     <div class="border-t border-gray-100">
       <div class="px-2">
@@ -190,15 +189,13 @@ const Landing = () => {
       </button>
     </form>
   </div>
-</div>
-            </div>
+</div> 
            
-     
+           
+)  
         
             
-            
+}     
 
-      
-    )
-}
+ 
 export default Landing
